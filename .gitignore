@@ -1,0 +1,7 @@
+**/.vs
+**/.DS_Store
+.idea
+/lib/
+node_modules/
+.node_modules/
+built/*
