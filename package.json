@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev --respawn src/index.ts"
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "ejercicio4": "ts-node-dev --respawn src/ejercicio4/main.ts"
   },
   "keywords": [],
   "author": "",
