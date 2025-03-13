@@ -18,7 +18,7 @@ Este proyecto tiene como base un solo archivo dentro de la carpeta de `src/index
 npm i
 ```
 
-2. Ejecutar en modo desarrollo (esto solo va a ejecutar el `src/index.ts`)
+2. Ejecutar en modo desarrollo (esto solo va a ejecutar el `src/index.ts`). Para ejecutar los ejercicios leer la sección [Correr Ejercicios](#correr-ejercicios)
 
 ```
 npm run dev
@@ -39,6 +39,14 @@ npm run ejercicio4
 ```
 
 ## Diagramas UML
+
+### Ejercicio 3
+
+La solución del ejercicio 3 se ejecuta con el siguiente comando en terminal 
+
+```
+npm run ejercicio3
+```
 
 ### Ejercicio 4
 

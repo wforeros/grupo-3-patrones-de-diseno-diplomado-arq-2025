@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn src/index.ts",
+    "ejercicio3": "ts-node-dev --respawn src/ejercicio3/index.ts",
     "ejercicio4": "ts-node-dev --respawn src/ejercicio4/main.ts"
   },
   "keywords": [],
