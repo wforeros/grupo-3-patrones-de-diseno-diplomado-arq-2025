@@ -1,5 +1,5 @@
-import { MetodoDesconocidoAdaptador } from "./adaptadores/nuevo_metodo_desconocido_adapt";
-import { MetodoDesconocido } from "./metodos_pago/nuevo_metodo_desconocido";
+import { NuevoMetodoAdapter } from "./adaptadores/nuevo_metodo_adapter";
+import { NuevoMetodo } from "./metodos_pago/nuevo_metodo";
 import { PaypalMetodo } from "./metodos_pago/paypal";
 import { TarjetaCredito } from "./metodos_pago/tarjeta_credito";
 import { ServicioPago } from "./servicios/servicio_pago";
@@ -18,8 +18,8 @@ const servicioTarjetaCredito = new ServicioPago(tarjetaCredito)
 servicioTarjetaCredito.hacerPago(CUENTA, VALOR_TRANSFERENCIA)
 
 // Metodo Desconocido
-const metodoDesconocido = new MetodoDesconocido()
-const metodoDesconocidoAdaptado = new MetodoDesconocidoAdaptador(metodoDesconocido)
+const metodoDesconocido = new NuevoMetodo()
+const metodoDesconocidoAdaptado = new NuevoMetodoAdapter(metodoDesconocido)
 const servicioMetodoDesconocido = new ServicioPago(metodoDesconocidoAdaptado)
 servicioMetodoDesconocido.hacerPago(CUENTA, VALOR_TRANSFERENCIA)
 

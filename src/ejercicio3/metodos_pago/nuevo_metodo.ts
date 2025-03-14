@@ -5,12 +5,12 @@
  * cambiar nombres de métodos, tipos ni lo que retornan
  */
 
-interface ResultadoTransaccion {
+interface Resultado {
   fueCompletado: boolean
 }
 
-export class MetodoDesconocido {
-  completarPago(numeroCuenta: number, cantidad: number): ResultadoTransaccion {
+export class NuevoMetodo {
+  completarPago(numeroCuenta: number, cantidad: number): Resultado {
     console.log('Completando el pago con el nuevo metodo desconocido')
     // Proceso imaginario y digamos que siempre funcionó
     return {

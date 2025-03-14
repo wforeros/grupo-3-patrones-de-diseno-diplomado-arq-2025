@@ -1,11 +1,11 @@
 import { MetodoPago } from "../metodos_pago/metodo_pago";
-import { MetodoDesconocido } from "../metodos_pago/nuevo_metodo_desconocido";
+import { NuevoMetodo } from "../metodos_pago/nuevo_metodo";
 
-export class MetodoDesconocidoAdaptador implements MetodoPago {
+export class NuevoMetodoAdapter implements MetodoPago {
 
-  #nuevoMetodoPago: MetodoDesconocido
+  #nuevoMetodoPago: NuevoMetodo
 
-  constructor(nuevoMetodoPago: MetodoDesconocido) {
+  constructor(nuevoMetodoPago: NuevoMetodo) {
     this.#nuevoMetodoPago = nuevoMetodoPago
   }
 
