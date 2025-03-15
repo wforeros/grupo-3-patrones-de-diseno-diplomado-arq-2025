@@ -68,3 +68,8 @@ npm start
 ### Ejercicio 4
 
 ![Ejercicio 4 drawio](https://github.com/user-attachments/assets/00f23f97-41f6-4b75-8ee2-3b5d998b986e)
+
+### Ejercicio 5
+![uml ejercicio 5](https://github.com/user-attachments/assets/1e02ffc0-7899-4e49-a724-97fd0f57ab4e)
+
+
