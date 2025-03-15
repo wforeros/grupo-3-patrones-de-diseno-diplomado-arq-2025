@@ -28,6 +28,14 @@ npm run dev
 
 ## Correr Ejercicios
 
+### Ejercicio 3
+
+La solución del ejercicio 3 se ejecuta con el siguiente comando en terminal 
+
+```
+npm run ejercicio3
+```
+
 ### Ejercicio 4
 
 Patrón de diseño utilizado: Command + Memento
@@ -42,11 +50,8 @@ npm run ejercicio4
 
 ### Ejercicio 3
 
-La solución del ejercicio 3 se ejecuta con el siguiente comando en terminal 
+![adapter_ejercicio_3 drawio](https://github.com/user-attachments/assets/0c6ddd9c-6c52-48d9-bf23-a2dc494b6361)
 
-```
-npm run ejercicio3
-```
 
 ### Ejercicio 4
 
