@@ -48,6 +48,16 @@ La solución del ejercicio 4 se ejecuta con el siguiente comando en terminal
 npm run ejercicio4
 ```
 
+### Ejercicio 5 (Por Santiago Bellaizan Chaparro)
+
+Patrón de diseño utilizado: Decorador
+
+La solución del ejercicio 5 se ejecuta con el siguiente comando en terminal dentro de la carpeta ejercicio5\decorador-habitaciones-hotel
+
+```
+npm start
+```
+
 ## Diagramas UML
 
 ### Ejercicio 3
