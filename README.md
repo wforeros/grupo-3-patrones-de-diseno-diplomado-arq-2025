@@ -28,7 +28,9 @@ npm run dev
 
 ## Correr Ejercicios
 
-### Ejercicio 3
+### Ejercicio 3 (Por Wilson Camilo Forero Sierra)
+
+Patrón de diseño utilizado: Adapter
 
 La solución del ejercicio 3 se ejecuta con el siguiente comando en terminal 
 
@@ -36,7 +38,7 @@ La solución del ejercicio 3 se ejecuta con el siguiente comando en terminal
 npm run ejercicio3
 ```
 
-### Ejercicio 4
+### Ejercicio 4 (Por Alejandro Zapata Molina)
 
 Patrón de diseño utilizado: Command + Memento
 
