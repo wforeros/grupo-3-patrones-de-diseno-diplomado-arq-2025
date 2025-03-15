@@ -1,15 +1,15 @@
 import { PaymentProcessor } from '../../domain/payment.processor';
-import { NewPaymentProcessor } from '../../infrastructure/new-payment.processor';
+import { NewPaymentSystem } from '../repositories';
 
 
 export class NewPaymentAdapter implements PaymentProcessor {
-    private newPaymentProcessor: NewPaymentProcessor;
+    private newPaymentSystem: NewPaymentSystem;
 
     constructor() {
-        this.newPaymentProcessor = new NewPaymentProcessor();
+        this.newPaymentSystem = new NewPaymentSystem();
     }
 
     processPayment(account: string, amount: number): void {
-        this.newPaymentProcessor.makePayment(account, amount);
+        this.newPaymentSystem.makePayment(account, amount);
     }
 }
