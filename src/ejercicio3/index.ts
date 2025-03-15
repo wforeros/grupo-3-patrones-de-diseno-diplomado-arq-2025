@@ -18,10 +18,10 @@ const servicioTarjetaCredito = new ServicioPago(tarjetaCredito)
 servicioTarjetaCredito.hacerPago(CUENTA, VALOR_TRANSFERENCIA)
 
 // Metodo Desconocido
-const metodoDesconocido = new NuevoMetodo()
-const metodoDesconocidoAdaptado = new NuevoMetodoAdapter(metodoDesconocido)
-const servicioMetodoDesconocido = new ServicioPago(metodoDesconocidoAdaptado)
-servicioMetodoDesconocido.hacerPago(CUENTA, VALOR_TRANSFERENCIA)
+const nuevoMetodo = new NuevoMetodo()
+const nuevoMetodoAdaptado = new NuevoMetodoAdapter(nuevoMetodo)
+const servicioNuevoMetodo = new ServicioPago(nuevoMetodoAdaptado)
+servicioNuevoMetodo.hacerPago(CUENTA, VALOR_TRANSFERENCIA)
 
 // Va a arrojar error si lo usamos directamente
-// const servicioMetodoDesconocido = new ServicioPago(metodoDesconocido)
+// const servicioNuevoMetodo = new ServicioPago(nuevoMetodo)

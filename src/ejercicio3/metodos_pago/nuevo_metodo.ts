@@ -11,7 +11,7 @@ interface Resultado {
 
 export class NuevoMetodo {
   completarPago(numeroCuenta: number, cantidad: number): Resultado {
-    console.log('Completando el pago con el nuevo metodo desconocido')
+    console.log('Completando el pago con el nuevo metodo.')
     // Proceso imaginario y digamos que siempre funcionó
     return {
       fueCompletado: true
