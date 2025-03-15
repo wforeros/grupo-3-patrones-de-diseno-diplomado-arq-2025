@@ -1,5 +1,5 @@
-import { MessagesConfig } from '../config';
-import { PaymentProcessor } from '../domain';
+import { MessagesConfig } from '../../config';
+import { PaymentProcessor } from '../../domain';
 
 export class PayPalPaymentProcessor implements PaymentProcessor {
     processPayment(account: string, amount: number): void {

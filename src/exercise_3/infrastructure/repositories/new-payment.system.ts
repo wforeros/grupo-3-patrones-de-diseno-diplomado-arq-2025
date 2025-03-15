@@ -1,6 +1,6 @@
-import { MessagesConfig } from '../config';
+import { MessagesConfig } from '../../config';
 
-export class NewPaymentProcessor {
+export class NewPaymentSystem {
     makePayment(account: string, total: number): void {
         console.log(MessagesConfig.NEW_PAYMENT(account, total));
     }
