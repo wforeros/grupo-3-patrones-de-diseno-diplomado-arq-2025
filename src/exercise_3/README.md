@@ -1,7 +1,6 @@
 # Integración de un Sistema de Pago Externo V1.0.0
 
-## Author
-### **Edgar Guerrero**
+## Author: **Edgar Guerrero**
 
 Este repo usa **typescript": "^5.8.2".
 
