@@ -1,21 +1,21 @@
-// Interfaz común para una Habitación
 interface IHabitacion {
-    descripcion(): string;
-    costo(): number;
+    getDescripcion(): string;
+    getCosto(): number;
 }
 
-// Clase base: Habitación simple
 class Habitacion implements IHabitacion {
-    descripcion(): string {
-        return "Habitación estándar";
+    private descripcion: string = "Habitación estándar";
+    private costo: number = 50;
+
+    getDescripcion(): string {
+        return this.descripcion;
     }
 
-    costo(): number {
-        return 100; // Precio base de la habitación
+    getCosto(): number {
+        return this.costo; 
     }
 }
 
-// Decorador base que implementa IHabitacion
 abstract class DecoradorHabitacion implements IHabitacion {
     protected habitacion: IHabitacion;
 
@@ -23,59 +23,64 @@ abstract class DecoradorHabitacion implements IHabitacion {
         this.habitacion = habitacion;
     }
 
-    descripcion(): string {
-        return this.habitacion.descripcion();
+    getDescripcion(): string {
+        return this.habitacion.getDescripcion();
     }
 
-    costo(): number {
-        return this.habitacion.costo();
+    getCosto(): number {
+        return this.habitacion.getCosto();
     }
 }
 
-// Decorador específico: Flores
 class FloresDecorador extends DecoradorHabitacion {
-    descripcion(): string {
-        return this.habitacion.descripcion() + ", con flores frescas";
+    private descripcion: string = "Flores frescas";
+    private costo: number = 20;
+
+    getDescripcion(): string {
+        return this.habitacion.getDescripcion() + ", con " + this.descripcion;
     }
 
-    costo(): number {
-        return this.habitacion.costo() + 20;
+    getCosto(): number {
+        return this.habitacion.getCosto() + this.costo;
     }
 }
 
-// Decorador específico: Chocolate
 class ChocolateDecorador extends DecoradorHabitacion {
-    descripcion(): string {
-        return this.habitacion.descripcion() + ", con chocolate gourmet";
+    private descripcion: string = "Chocolate gourmet";
+    private costo: number = 10;
+
+    getDescripcion(): string {
+        return this.habitacion.getDescripcion() + ", con " + this.descripcion;
     }
 
-    costo(): number {
-        return this.habitacion.costo() + 30;
+    getCosto(): number {
+        return this.habitacion.getCosto() + this.costo;
     }
 }
 
-// Decorador específico: Vino
 class VinoDecorador extends DecoradorHabitacion {
-    descripcion(): string {
-        return this.habitacion.descripcion() + ", con vino de alta calidad";
+    private descripcion: string = "Vino de alta calidad";
+    private costo: number = 30;
+
+    getDescripcion(): string {
+        return this.habitacion.getDescripcion() + ", con " + this.descripcion;
     }
 
-    costo(): number {
-        return this.habitacion.costo() + 50;
+    getCosto(): number {
+        return this.habitacion.getCosto() + this.costo;
     }
 }
 
 export function program5(){
     let habitacion: IHabitacion = new Habitacion();
-    console.log(habitacion.descripcion(), "- Precio:", habitacion.costo());
+    console.log(habitacion.getDescripcion(), "- Precio:", habitacion.getCosto());
     
     habitacion = new FloresDecorador(habitacion);
-    console.log(habitacion.descripcion(), "- Precio:", habitacion.costo());
+    console.log(habitacion.getDescripcion(), "- Precio:", habitacion.getCosto());
     
     habitacion = new ChocolateDecorador(habitacion);
-    console.log(habitacion.descripcion(), "- Precio:", habitacion.costo());
+    console.log(habitacion.getDescripcion(), "- Precio:", habitacion.getCosto());
     
     habitacion = new VinoDecorador(habitacion);
-    console.log(habitacion.descripcion(), "- Precio:", habitacion.costo());
+    console.log(habitacion.getDescripcion(), "- Precio:", habitacion.getCosto());
 }
-
