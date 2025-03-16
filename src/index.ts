@@ -13,7 +13,7 @@ const rl = readline.createInterface({
 
 function clearScreen() {
     console.clear();
-}
+} 
  
 function showMenu() {
   console.log("");

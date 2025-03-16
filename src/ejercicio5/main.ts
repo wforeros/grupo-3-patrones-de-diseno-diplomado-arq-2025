@@ -14,7 +14,7 @@ class Habitacion implements IHabitacion {
     getCosto(): number {
         return this.costo; 
     }
-}
+} 
 
 abstract class DecoradorHabitacion implements IHabitacion {
     protected habitacion: IHabitacion;
