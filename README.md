@@ -1,75 +1,91 @@
 # Ejercicios Grupo #3 - Diplomado Arquitectura de Software
 
+  
+
 ## Acerca de
+
+  
 
 Repositorio que contiene la solución a los ejercicios propuestos por el profesor **Daniel Saavedra**, relacionados a patrones de diseño.
 
+  
+
 ### Tecnologías
+
+  
 
 Proyecto creado con `NodeJS v22.14.0` y `TypeScript`
 
+  
+
 ## Cómo Iniciar
+
+  
 
 Este proyecto tiene como base un solo archivo dentro de la carpeta de `src/index.ts`
 
+  
+
 1. Instalar dependencias
 
+  
+
 ```
+
 npm i
-```
-
-2. Ejecutar en modo desarrollo (esto solo va a ejecutar el `src/index.ts`). Para ejecutar los ejercicios leer la sección [Correr Ejercicios](#correr-ejercicios)
 
 ```
+
+  
+
+2. Ejecutar en modo desarrollo 
+
+  
+
+```
+
 npm run dev
+
 ```
+
+  
 
 3. Darle todos los poderes a los ejercicios 😎
 
-## Correr Ejercicios
-
-### Ejercicio 3 (Por Wilson Camilo Forero Sierra)
-
-Patrón de diseño utilizado: Adapter
-
-La solución del ejercicio 3 se ejecuta con el siguiente comando en terminal 
-
-```
-npm run ejercicio3
-```
-
-### Ejercicio 4 (Por Alejandro Zapata Molina)
-
-Patrón de diseño utilizado: Command + Memento
-
-La solución del ejercicio 4 se ejecuta con el siguiente comando en terminal
-
-```
-npm run ejercicio4
-```
-
-### Ejercicio 5 (Por Santiago Bellaizan Chaparro)
-
-Patrón de diseño utilizado: Decorador
-
-La solución del ejercicio 5 se ejecuta con el siguiente comando en terminal dentro de la carpeta ejercicio5\decorador-habitaciones-hotel
-
-```
-npm start
-```
+  
 
 ## Diagramas UML
 
+### Ejercicio 1
+Patrón de diseño utilizado: Prototype
+
+![adapter_ejercicio_3 drawio](https://github.com/wforeros/grupo-3-patrones-de-diseno-diplomado-arq-2025/blob/master/src/exercise_2/diagram.PNG)
+
+
+### Ejercicio 2
+
+Patrón de diseño utilizado: 
+
+![adapter_ejercicio_3 drawio](https://github.com/wforeros/grupo-3-patrones-de-diseno-diplomado-arq-2025/blob/master/src/exercise_2/diagram.PNG)
+  
 ### Ejercicio 3
+
+  Patrón de diseño utilizado: Adapter
 
 ![adapter_ejercicio_3 drawio](https://github.com/user-attachments/assets/0c6ddd9c-6c52-48d9-bf23-a2dc494b6361)
 
+  
+  
 
 ### Ejercicio 4
 
+  Patrón de diseño utilizado: Command + Memento
+
 ![Ejercicio 4 drawio](https://github.com/user-attachments/assets/00f23f97-41f6-4b75-8ee2-3b5d998b986e)
 
+  
+
 ### Ejercicio 5
+Patrón de diseño utilizado: Decorador
+
 ![uml ejercicio 5](https://github.com/user-attachments/assets/1e02ffc0-7899-4e49-a724-97fd0f57ab4e)
-
-
