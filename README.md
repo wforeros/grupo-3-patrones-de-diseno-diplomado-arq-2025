@@ -59,7 +59,7 @@ npm run dev
 ### Ejercicio 1
 Patrón de diseño utilizado: Prototype
 
-![adapter_ejercicio_3 drawio]([https://github.com/wforeros/grupo-3-patrones-de-diseno-diplomado-arq-2025/blob/master/src/exercise_2/diagram.PNG](https://github.com/wforeros/grupo-3-patrones-de-diseno-diplomado-arq-2025/blob/master/src/ejercicio1/diagrama.png))
+![adapter_ejercicio_3 drawio](https://github.com/wforeros/grupo-3-patrones-de-diseno-diplomado-arq-2025/blob/master/src/ejercicio1/diagrama.png)
 
 
 ### Ejercicio 2
